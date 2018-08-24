@@ -6,6 +6,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
     <import resource="employee-data.xml"/>
     <import resource="employee-mvc.xml"/>
+    <import resource="app-security.xml"/>
 	<context:component-scan
 		base-package="com.howtodoinjava">
 	</context:component-scan>
